@@ -6,4 +6,8 @@ const getters = {
 
 const actions = {}
 
-const mutations = {}
+const mutations = {
+  setToken: (state, token) => {
+    state.token = token
+  },
+}
