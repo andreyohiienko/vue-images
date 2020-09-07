@@ -8,7 +8,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
-  routes: [{ path: '/oath2/callback', component: AuthHandler }],
+  routes: [{ path: '/oauth2/callback', component: AuthHandler }],
 })
 
 new Vue({
