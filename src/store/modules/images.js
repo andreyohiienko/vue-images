@@ -21,3 +21,10 @@ const mutations = {
     state.images = images
   },
 }
+
+export default {
+  state, // names of this of object is important
+  getters,
+  actions,
+  mutations,
+}
