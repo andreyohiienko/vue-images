@@ -10,7 +10,6 @@ const getters = {
 const actions = {
   login: () => {
     api.login()
-    console.log()
   },
   finalizeLogin({ commit }, hash) {
     const query = qs.parse(hash.replace('#', ''))
